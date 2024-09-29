@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animated-bg {
+    background: linear-gradient(270deg, #ff6b6b, #f06595, #845ef7, #5c7cfa, #00d4ff);
+    background-size: 150% 150%;
+    animation: gradientShift 15s ease infinite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 0.5s fadeInUp;
+  }
+
+  @keyframes textFlicker {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .flicker-text {
+    animation: textFlicker 2s ease-in-out infinite;
+  }
+  .flicker1-text {
+    animation: textFlicker 4s ease-in-out infinite;
+  }
