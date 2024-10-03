@@ -4,7 +4,7 @@
 Company Project 1 adalah aplikasi berbasis web yang dibangun menggunakan Laravel 11. Aplikasi ini bertujuan untuk mempermudah dalam mengatur isi konten dalam web.
 
 ## Fitur Utama
-- Manajemen Content
+- Manajemen Konten
 
 ## Instalasi
 Berikut langkah-langkah untuk menginstal project ini di lokal:
